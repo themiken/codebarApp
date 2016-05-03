@@ -90,7 +90,7 @@ function copyItem(itemName, itemDescription, itemPrice, itemPriceIVA, itemImage,
   $clone.find('.productDescription').html(itemDescription);
   $clone.find('.productPrice').html(itemPrice);
   $clone.find('.productPriceIVA').html(itemPriceIVA);
-  $clone.find('.productImage').html('<img src="' + itemImage + '" class="productImage"alt="">');
+  $clone.find('.figureProductImage').html('<img src=' + itemImage + ' class="productImage"alt="">');
   $clone.find('.productCode').html(itemBarcode);
   $productoContainerID.prepend($clone);
 
